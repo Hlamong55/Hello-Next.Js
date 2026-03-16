@@ -25,7 +25,10 @@ export default function RootLayout({ children }) {
       >
         <Header></Header>
 
-        {children}
+        <main className="px-4 py-8">
+          {children}
+        </main>
+
       </body>
     </html>
   );

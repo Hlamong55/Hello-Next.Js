@@ -2,8 +2,8 @@ import React from 'react';
 
 const Title = ({ children }) => {
     return (
-        <div>
-            <h2 className='text-4xl font-bold'>{children}</h2>
+        <div className='bg-linear-60 from-sky-100 to-sky-400 p-3 rounded'>
+            <h2 className='text-5xl font-bold'>{children}</h2>
         </div>
     );
 };

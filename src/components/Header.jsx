@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
     return (
         <header className="px-8 py-4 border-b-2 border-gray-500 flex justify-between items-center flex-wrap">
-          <Link href="/" className="text-xl font-extrabold">🐞 Dev Story</Link>
+          <Link href="/" className="text-xl font-extrabold">🐞Dev Story</Link>
 
           <nav className='space-x-5'>
             <Link href="/about">About Us</Link>

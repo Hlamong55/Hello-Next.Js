@@ -6,7 +6,7 @@ const DashboardLayout = ({ children }) => {
         <div className='grid grid-cols-12 gap-5 min-h-screen'>
 
             <div className='col-span-3 '>
-                <h2 className='text-xl font-bold text-center mt-5'>Navigation</h2>
+                <Link href="/" className="text-2xl font-extrabold flex justify-center mt-5">🐞Dev Story</Link>
 
                 <div className='flex flex-col gap-3 mt-8'>
                     <Link 
